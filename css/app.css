@@ -7,3 +7,50 @@ h1{
     color: #037BC0;
 }
 /** Productos */
+.contenerdor-main{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.container-individual{
+    display: flex;
+    flex-wrap: wrap;
+    height: 20rem;
+}
+.product-img{
+    width: 70%;
+    position: relative;
+    border-radius: 10px;
+    min-height: 200px;
+    min-width: 321px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.product-card{
+    width: 30%;    
+}
+
+.img-producto-1{
+    background-image: url("/img/producto1.jpg");    
+}
+.img-producto-2{
+    background-image: url("/img/producto2.jpg");    
+}
+.img-producto-3{
+    background-image: url("/img/producto3.jpg");    
+}
+.img-producto-4{
+    background-image: url("/img/producto4.jpg");    
+}
+.img-producto-5{
+    background-image: url("/img/producto5.jpg");    
+}
+.img-producto-6{
+    background-image: url("/img/producto6.jpg");    
+}
