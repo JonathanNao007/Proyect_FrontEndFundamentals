@@ -175,7 +175,26 @@ h1, h2{
     justify-content: center;
 }
 
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 62.5;
+}
+.playfair-font {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
 
+h1,h2,h3{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;;
+}
 /*Media Query*/
 @media (min-width: 1218px) {
     .product-img-30{
